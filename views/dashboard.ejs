@@ -1,0 +1,30 @@
+
+<html>
+    <head>
+        <title>Dashboard</title>
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/dash.css">
+
+    </head>
+    <body>
+      
+        <h1>Dashboard</h1>
+        <div>
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Name:</label>
+          <p type="text" id="name" name="user_name"><%= _name %></p>
+          
+          <label for="mail">Email:</label>
+          <p type="email" id="mail" name="user_email"><%= _email %></p>
+          
+          <label>Age:</label>
+          <p type="text" id="age" name="user_age"><%= _age %></p>
+    
+          <label for="address">Address:</label>
+          <p id="address" name="user_address"><%= _address %></p>
+    
+        </fieldset>
+    </div>
+    </body>
+    </html>

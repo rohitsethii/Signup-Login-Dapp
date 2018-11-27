@@ -1,0 +1,59 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+  
+    <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<p id = "demo"></p>
+
+  <form method="POST" action="/signup">
+  
+    <h1>Sign Up</h1>
+    
+    <fieldset>
+      <legend><span class="number">1</span>Your basic info</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="user_name">
+      
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email">
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="user_password">
+      
+      <label>Age:</label>
+      <input type="text" id="age" name="user_age">
+
+      <label>Phone Number:</label>
+      <input type="text" id="phoneNumber" name="user_phoneNumber">
+
+      <label>Category:</label>
+      <br>
+      <input type="radio" name="Type" value="1" checked> 1 <span>Customer</span> <br>
+      <input type="radio" name="Type" value="2" > 2 <span>Vendor</span><br>
+      <br>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="user_address"></textarea>
+
+    </fieldset>
+
+    <button id="register" type="submit" >Sign Up</button>
+  </form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/Register.js"></script>
+<script src="js/Dapp.js"></script>
+<script src="js/truffle-contract.min.js"></script>
+  
+  <!-- <script type = "text/javascript" src="js/Register.json"></script> -->
+
+  <!-- <script src="js/app.js"></script> -->
+  
+</body>
+</html>

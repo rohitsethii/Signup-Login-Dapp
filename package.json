@@ -1,0 +1,22 @@
+{
+  "name": "loginsignup",
+  "version": "1.0.0",
+  "description": "secure registeration process where credentials will store In smart contract and central mongoDB Database as well",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lite-server": "^2.4.0",
+    "nodemon": "^1.18.7",
+    "truffle-contract": "^3.0.6",
+    "truffle-hdwallet-provider": "0.0.6"
+  }
+}
