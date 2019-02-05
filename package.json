@@ -8,13 +8,13 @@
   },
   "scripts": {
     "dev": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "lite-server": "^2.4.0",
     "nodemon": "^1.18.7",
     "truffle-contract": "^3.0.6",
     "truffle-hdwallet-provider": "0.0.6"
