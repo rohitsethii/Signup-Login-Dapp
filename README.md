@@ -1,6 +1,6 @@
-# Donation-Contract
+# Signup Login Dapp
 
-Donation contract which works with referral system. Any one who donates to the contract passes a referral address and the referred address get 5% of the amount. Referral bonus is given to up to 3 levels. 
+Signup Login Dapp - user can interact with the dapp using metamask. Details gets stored in MongoDb server as well.
 
 ### Prerequisites
 
