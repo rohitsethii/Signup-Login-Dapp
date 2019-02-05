@@ -1,6 +1,4 @@
 pragma solidity ^0.4.24;
-//  bzz-raw://c2ba77428097494427b00abb7918e0809b3da02e064523197f693fdd8c5bd736
-//  bzz-raw://666c8ccf22f35d56a5336c5f701ad2481df89694f14ce301ab2d1e15a0018ddb
 
 library NameFilter {
     /**
